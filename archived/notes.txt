@@ -1,0 +1,11 @@
+# Some updates on pgmlib (utmLib)
+clses.py:  add ignore args to dotdict show function
+Gaussains.py:  the conversion bug, too large double convert to float yeilds or directly inf, then sqrt and log won't get the correct value  
+
+
+2. why original test likelihood also increase ? which part has better result? 
+
+
+the code should be submitted as supp material 
+
+

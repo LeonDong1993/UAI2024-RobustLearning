@@ -35,9 +35,9 @@ The core function you will need is `adversarial_step` defined in both notebooks.
 
 
 # Results
-We evaluated the generative performance of the robust model (trained through DRSL) against its standard counterparts (trained through MLE) for both MixMG and [NN-GBN][cont_cnet] models.
+We evaluated the generative performance of the robust model (trained through DRSL) against its standard counterparts (trained through MLE) for both Mixture of Multivariate Gaussian (MixMG) and [NN-GBN][cont_cnet] models.
 
-The average loglikelihoods achieved by DRSL compared against MLE are shown in the following figure (first one is original test set while the other four are adversarial test sets).
+The average loglikelihoods gain achieved by DRSL compared against MLE are shown in the following figure (first one is original test set while the other four are adversarial test sets).
 
 ![experiment results][result_fig]
 
